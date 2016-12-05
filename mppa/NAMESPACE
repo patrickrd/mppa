@@ -1,0 +1,9 @@
+##exportPattern("^[[:alpha:]]+")
+import(methods, stats)
+exportMethods(
+    "plot" 
+)
+exportClasses(
+    "mproc" 
+)
+export(F.test, TMT.test, corrtest, mkF, mp, place, simes.test)
